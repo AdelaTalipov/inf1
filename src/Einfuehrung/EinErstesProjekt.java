@@ -1,0 +1,51 @@
+package Einfuehrung;
+
+public class EinErstesProjekt {
+
+	public static void main(String args[]) {
+
+		int x = 30;
+		int y = 5;
+		int a = 10;
+		int b = 3;
+		int l = 4;
+		int m = 2;
+		int n = 1;
+		int w = 11;
+		int z = 22;
+		int o = 1234567891;
+		double c = 0.5;
+		double j = 6.6;
+		double k = 3.3;
+		double ü = 3.0;
+		String d = "text";
+		String e = "Text";
+		String f = "Pro";
+		String g = "gramm";
+		String h = "ab";
+		String i = "cd";
+		String p = "Q";
+		String q = "q";
+		String r = "Progr";
+		String s = "amm";
+		String v= "Program";
+		
+		
+		System.out.println(x - y);
+		System.out.println((a / b) + c);
+		System.out.println(a == b);
+		System.out.println(d == e);
+		System.out.println(f + g);
+		System.out.println(h!=i);
+		System.out.println(j/k);
+		System.out.println((a/l)==m);
+		System.out.println((n/b)*o);
+		System.out.println(p==q);
+		System.out.println((r+s)==v);
+		System.out.println(w<=(z/m));
+		System.out.println(w<(z/m));
+		System.out.println((n+m)==ü);
+		
+	}
+
+}
